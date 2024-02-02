@@ -191,7 +191,7 @@ export const saveRefreshTime = () => {
     window.localStorage.refreshtime ? new Date(window.localStorage.refreshtime) : new Date(-1)
   ) as Date
   const expiretime = new Date(Date.parse(window.localStorage.TokenExpire))
-  const refreshCount = 3 //滑动系数
+  const refreshCount = 3 // 滑动系数
   if (lastRefreshTime >= nowtime) {
     lastRefreshTime = nowtime > expiretime ? nowtime : expiretime
     lastRefreshTime.setHours(lastRefreshTime.getHours() + refreshCount)
