@@ -1,4 +1,4 @@
-# cortoi_online
+# vue_online
 
 ## Project setup
 ```
