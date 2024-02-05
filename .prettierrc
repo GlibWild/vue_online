@@ -6,6 +6,7 @@
     "tabWidth": 2,
     "arrowParens": "avoid",
     "bracketSpacing": true,
-    "htmlWhitespaceSensitivity": "ignore"
+    "htmlWhitespaceSensitivity": "ignore",
+    "useTabs": false
   }
   

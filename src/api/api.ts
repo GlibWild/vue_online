@@ -200,3 +200,11 @@ export const saveRefreshTime = () => {
     window.localStorage.refreshtime = new Date(-1)
   }
 }
+// 登录
+export const signIn = (params: any) => {
+  return axios
+    .get(`${base}/api/login`, {
+      params: params
+    })
+    .then(res => res.data)
+}

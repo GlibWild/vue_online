@@ -1,5 +1,5 @@
 {
-  "name": "vue_online",
+  "name": "cortoi_online",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tsparticles/slim": "^3.2.1",
+    "@tsparticles/vue2": "^3.0.0",
     "axios": "^1.6.7",
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
@@ -16,7 +18,7 @@
     "vue": "^2.6.14",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
-    "vue-router": "^3.5.1",
+    "vue-router": "^3.6.5",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
